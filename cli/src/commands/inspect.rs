@@ -383,7 +383,7 @@ fn inspect_agents(host: &str, port: u16, raw: bool) -> Result<()> {
         println!("  {}  {}", icon.green(), a.name.bold());
         println!("  {:<20} {}", "ID:".bright_black(), a.agent_id.dimmed());
         if !a.owner.is_empty() {
-            println!("  {:<20} {}", "Owner:".bright_black(), &a.owner);
+            println!("  {:<20} {}", "Owner:".bright_black(), a.owner);
         }
         if !a.capabilities.is_empty() {
             println!(
@@ -405,7 +405,7 @@ fn inspect_agents(host: &str, port: u16, raw: bool) -> Result<()> {
             println!(
                 "  {:<20} {}",
                 "Last heartbeat:".bright_black(),
-                &a.health.last_heartbeat
+                a.health.last_heartbeat
             );
         }
         println!();
