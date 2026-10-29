@@ -61,12 +61,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ch4r10t33r/inai.git"
+    "url": "git+https://github.com/svayatta/inai.git"
   },
   "bugs": {
-    "url": "https://github.com/ch4r10t33r/inai/issues"
+    "url": "https://github.com/svayatta/inai/issues"
   },
-  "homepage": "https://github.com/ch4r10t33r/inai#readme",
+  "homepage": "https://github.com/svayatta/inai#readme",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"

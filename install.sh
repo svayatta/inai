@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 # Inai CLI installer — auto-detects platform and architecture.
-# Usage: curl -fsSL https://raw.githubusercontent.com/ch4r10t33r/inai/main/install.sh | sh
+# Usage: curl -fsSL https://raw.githubusercontent.com/svayatta/inai/main/install.sh | sh
 set -e
 
-REPO="ch4r10t33r/inai"
+REPO="svayatta/inai"
 BIN="inai"
 INSTALL_DIR="${INAI_INSTALL_DIR:-/usr/local/bin}"
 
